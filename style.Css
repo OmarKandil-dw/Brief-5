@@ -1,24 +1,15 @@
  
 body{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     margin: 0px;
     padding: 0px;
-    background-color: #ffeeee;
     width: 100%;
     box-sizing: border-box;
 
     
 }
-.navbar{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    margin: 0px;
-    justify-content: space-between;
-    padding: 20px ;
-    align-items: center;
-}
+   /* Début du Header */
+   /* Début du Navbar */
+
 nav{
     width: 100%;
     height: 70px;
@@ -31,6 +22,7 @@ nav{
     align-content: center;
     flex-direction: row;
  }
+ 
  .links{
     display: flex;
     width: 100%;

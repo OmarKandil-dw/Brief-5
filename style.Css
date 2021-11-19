@@ -9,7 +9,7 @@ body{
 main{
     margin-left: 7%;
     margin-right: 7%;
-    background-color: rgb(0, 17, 255);
+    background-color: aqua;
     
 }
    /* Début du Header */
@@ -141,7 +141,5 @@ th,td{
 
 }
 
-    main{
-        background-image: url(./PHOTOS/image\ 26.png)
-    }
+    
 

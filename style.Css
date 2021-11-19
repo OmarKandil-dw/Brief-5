@@ -44,8 +44,7 @@ nav{
 
            }
 .links ul li{
-    list-style: none;
-       
+    list-style: none;   
     padding: 0 5px;
     
               }
@@ -59,7 +58,7 @@ nav{
 
                 /* Fin du Navbar */
 
-
+               /* Page1 */
 
 .Entrainement-Img{
     position: relative;
@@ -79,33 +78,66 @@ nav{
     grid-template-columns: auto auto ;
     
    
-}
+        }
 .Infos{
     line-height: 1.6;
-}
+        }
+.SoudMar{
+    line-height: 1.6;
+    word-spacing: 30px;
+        }
+.MarGha{
+    word-spacing: 30px;   
+        }
 .Compétitions{
     padding: 10px 0px;
     display: flex;
     align-items: center;
     
     
-}
+            }
 .Comp-Img{
     padding-right: 5px;
-    
-    
-    
-}
+            }
 
 
 .Actu{
     display: flex;
     align-items: center;
-}
-.KK{
-    line-height: 1.6;
-    word-spacing: 30px;
+    }
+.Actu-Img{
+    padding-right: 5px;
+            }
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    }
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    }
+
+              /* Page2 */
+.Grid2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto ;
+       }
+
+.ImgEtTexte{
+    text-align: center;
+    }
+   /* Page3 */
+
+.yb{
+    display: none;
 }
 
 
+.Bounou:hover .yb{
+    display: block;
+    
+
+}
 

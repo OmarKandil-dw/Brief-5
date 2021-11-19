@@ -130,18 +130,41 @@ th,td{
     }
    /* Page3 */
 
-.yb{
-    display: none;
-}
 
 
-.Bounou:hover .yb{
-    display: block;
+
+
+.container {
+    position: relative;
     
-
-}
-
-    main{
-        background-image: url(./PHOTOS/image\ 26.png)
-    }
-
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+   
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8); /* Black see-through */
+    color: #f1f1f1; 
+    width: 88.6%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .gard{
+      display: grid;
+      grid-gap: 15px;
+      grid-template-columns: auto auto auto;
+  }

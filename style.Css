@@ -9,7 +9,7 @@ body{
 main{
     margin-left: 7%;
     margin-right: 7%;
-    background-color: aqua;
+    background-color: rgb(253, 253, 253);
     
 }
    /* Début du Header */
@@ -19,13 +19,14 @@ nav{
     width: 100%;
     height: 70px;
     
-    background-color: #020202;
+    background-color: #12641d;
     display: flex;
     margin: 0px;
     justify-content: space-between;
     align-items: center;
     align-content: center;
     flex-direction: row;
+    
  }
  
  .links{
@@ -83,12 +84,51 @@ nav{
     line-height: 1.6;
         }
 .SoudMar{
+    
+    display: flex;
     line-height: 1.6;
     word-spacing: 30px;
+    justify-content: space-around;
+    align-items: center;
         }
-.MarGha{
-    word-spacing: 30px;   
-        }
+.Soud{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.Match1{
+    align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+word-spacing: 20px;
+
+
+border-bottom: 1px solid #e0e9f7;
+}
+.Match2{
+    align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+word-spacing: 20px;
+
+border-bottom: 1px solid #e0e9f7;
+}
+.Match3{
+    align-items: center;
+
+flex-wrap: wrap;
+justify-content: space-between;
+
+word-spacing: 20px;
+
+
+border-bottom: 1px solid #e0e9f7;
+}
 .Compétitions{
     padding: 10px 0px;
     display: flex;
@@ -111,7 +151,7 @@ nav{
 
 table{
     border-collapse: collapse;
-    margin: auto;
+    float: center;
     }
 th,td{
     border: 1px solid black;
@@ -128,7 +168,88 @@ th,td{
 .ImgEtTexte{
     text-align: center;
     }
-   /* Page3 */
+.PicEtTitre4{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+      /* Page3 */
+
+
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 70px 100px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 13px;
+      }
+      
+    .circle{
+        margin:10px;
+        width:60px;
+        background:#15ff00;
+        height:60px;
+        text-align:center;
+        border-radius:100px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    
+    .VV{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: start;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        
+    }
+    .PicEtTitre3{
+        display: flex;
+        align-items: center;
+        padding: 10px 0px;
+
+    }
+     
+    .grid-container2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 70px 100px;
+    }
+    
+   
+   
+      
+      
+
+
+
+
+
+
+
+   /* Page4 */
+.PicEtTitre4{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+.Pic{
+    width: 5%;
+    padding-right: 7px;
+   
+    
+}
+.BorderPage4{
+    border-bottom: 3px solid #e0e9f7;
+}
     
 
 .container {
@@ -149,7 +270,7 @@ th,td{
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.8); /* Black see-through */
     color: #f1f1f1; 
-    width: 88.6%;
+    width: 89.5%;
     transition: .5s ease;
     opacity:0;
     color: white;
@@ -161,8 +282,102 @@ th,td{
   .container:hover .overlay {
     opacity: 1;
   }
-  .gard{
+.gard{
       display: grid;
       grid-gap: 15px;
       grid-template-columns: auto auto auto;
   }
+
+.DivSelec{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.DivSelec ul li{
+    list-style: none;   
+    padding: 0 5px;
+    
+              }
+.Hali   {
+    width: 100%;
+              
+              padding: 10px;
+              border: 1px solid #82868b;
+              display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: center;
+
+}           
+              
+
+
+
+
+ 
+
+  @media screen and (max-width: 1000px ) and
+    (min-width: 600px) {
+        .gard {
+            display: grid;
+            grid-gap: 15px;
+            grid-template-columns: auto auto;
+        }
+        .overlay {
+            position: absolute; 
+            bottom: 0; 
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.8); /* Black see-through */
+            color: #f1f1f1; 
+            width: 88.2%;
+            transition: .5s ease;
+            opacity:0;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+          }
+
+          .Grid1{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: auto;
+            text-align: center;
+           
+                }
+
+
+
+          .Grid2 {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: auto;
+               }
+               .Grid2 h4{
+                text-align: center;
+                font-size: 15px;
+                padding: 0px 40px;
+               }
+         .Grid2 img{
+            width: 65%;
+            height: 65%;
+         }
+         .Actu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+          
+
+         .Compétitions{
+            padding: 0px  200px;
+            display: flex;
+            align-items: center;
+            
+            
+                    }
+
+        
+    }

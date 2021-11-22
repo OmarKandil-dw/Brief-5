@@ -28,13 +28,18 @@ nav{
     flex-direction: row;
     
  }
+ .line{
+     width: 2px;
+     height: 16px;
+     background-color: #15ff00;
+ }
  
  .links{
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 150px;
-        }
+    }
     
 .links ul{
     display: flex;
@@ -175,7 +180,17 @@ th,td{
 }
       /* Page3 */
 
-
+      @media (max-width:800px) {
+        .Grid1{
+            display: block;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    
+        
+    }
 
       .grid-container {
         display: grid;
@@ -224,17 +239,7 @@ th,td{
         grid-gap: 70px 100px;
     }
     
-   
-   
-      
-      
-
-
-
-
-
-
-
+ 
    /* Page4 */
 .PicEtTitre4{
     display: flex;
@@ -312,72 +317,70 @@ justify-content: center;
 
 }           
               
-
-
-
-
- 
-
-  @media screen and (max-width: 1000px ) and
-    (min-width: 600px) {
-        .gard {
-            display: grid;
-            grid-gap: 15px;
-            grid-template-columns: auto auto;
-        }
-        .overlay {
-            position: absolute; 
-            bottom: 0; 
-            background: rgb(0, 0, 0);
-            background: rgba(0, 0, 0, 0.8); /* Black see-through */
-            color: #f1f1f1; 
-            width: 88.2%;
-            transition: .5s ease;
-            opacity:0;
-            color: white;
-            font-size: 20px;
-            padding: 20px;
-            text-align: center;
-          }
-
-          .Grid1{
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: auto;
-            text-align: center;
-           
-                }
-
-
-
-          .Grid2 {
-            display: grid;
-            grid-gap: 20px;
-            grid-template-columns: auto;
-               }
-               .Grid2 h4{
-                text-align: center;
-                font-size: 15px;
-                padding: 0px 40px;
-               }
-         .Grid2 img{
-            width: 65%;
-            height: 65%;
-         }
-         .Actu{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            }
-          
-
-         .Compétitions{
-            padding: 0px  200px;
-            display: flex;
-            align-items: center;
-            
-            
-                    }
-
+@media (max-width:800px) {
+    .Grid1{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto ;
+      
+     }
+     .Grid2{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto ;
+     }
+     .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+     }
+     .grid-container2{
+        display: grid;
+        grid-template-columns: auto auto;
+     }
+     .gard{
+        display: grid;
+        grid-template-columns: auto auto;
+     }
+     .links{
+        padding: 42px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+     }
+     nav{
+        width: 100%;
+        height: 50px;
+        background-color: #12641d;
+        display: flex;
+        margin: 0px;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
         
-    }
+     }
+     .PicEtTitre2{
+        width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+     }
+     
+     .PicEtTitre2 img{
+         width: 10%;
+     }
+     .overlay {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.8); /* Black see-through */
+        color: #f1f1f1; 
+        width: 84.5%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+}

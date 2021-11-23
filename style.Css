@@ -1,6 +1,4 @@
-html {
-    scroll-behavior: smooth;
-  }
+ 
 body{
     margin: 0px;
     padding: 0px;
@@ -18,11 +16,9 @@ main{
 
    /* Début du Navbar */
 
-nav{ 
-  z-index: 50;
+nav{
     width: 100%;
     height: 70px;
-    position: fixed;
     background-color: #12641d;
     display: flex;
     margin: 0px;
@@ -30,9 +26,7 @@ nav{
     align-items: center;
     align-content: center;
     flex-direction: row;
- }
-   
-
+   }
 
  .Navlines{
      width: 2px;
@@ -54,21 +48,17 @@ nav{
     padding-inline-start: 10;
     width: 100%;
     justify-content: space-between;
-    cursor: pointer;
-    padding: 0 0 0 20%;
            }
 
 .links ul li{
     list-style: none;   
     padding: 0 5px;
-    cursor: pointer;
             }
     
 .links ul li a{
     text-decoration: none;
     color: white;
     margin-right: 18px;
-    
            }
 .DivMenu{
     display: none;
@@ -94,12 +84,6 @@ nav{
     top: 50%;
     
                    }
-                   .PicEtTitre2{
-                           display: flex;
-    align-items: center;
-    padding: 10px 0px;
-}
-                   
 
 .Grid1{
     display: grid;
@@ -510,8 +494,7 @@ input{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 32px 35px;
+    grid-template-columns: auto auto;
                 }
 
 .grid-container2{
@@ -543,12 +526,11 @@ nav{
     flex-direction: row;       
      }
 
-     .PicEtTitre2{
-        display: flex;
-        align-items: center;
-        padding: 10px 0px;
+.PicEtTitre2{
     
-                }
+    display: flex;
+    
+            }
      
 
 

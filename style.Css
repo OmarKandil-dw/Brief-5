@@ -154,7 +154,7 @@ nav{
         }
 
 table{
-    border-collapse: collapse;
+    border-collapse:separate;
     float: center;
     }
 
@@ -179,6 +179,7 @@ th,td{
     align-items: center;
     padding: 10px 0px;
 }
+
       /* Page3 */
 
 
@@ -525,16 +526,15 @@ nav{
     flex-direction: row;       
      }
 
-.PicEtTitre2{
-    width: 60%;
-    display: flex;
-    align-items: center;
-    padding: 10px 0px;
-            }
-     
-.PicEtTitre2 img{
-    width: 10%;
+     .PicEtTitre2{
+        display: flex;
+        align-items: center;
+        padding: 10px 0px;
+    
                 }
+     
+
+
      
 .overlay {
     position: absolute; 

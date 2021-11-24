@@ -252,8 +252,7 @@ th,td{
     
  
                                             /* Page4 */
-
-                                             
+                     
 .PicEtTitre4{
     display: flex;
     align-items: center;
@@ -290,11 +289,12 @@ th,td{
     font-size: 20px;
     padding: 20px;
     text-align: center;
-            }
+}
   
 .container:hover .overlay {
     opacity: 1;
-                            }
+ }
+ 
 .gard{
     display: grid;
     grid-gap: 15px;

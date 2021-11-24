@@ -252,8 +252,7 @@ th,td{
     
  
                                             /* Page4 */
-
-                                             
+                     
 .PicEtTitre4{
     display: flex;
     align-items: center;
@@ -290,11 +289,12 @@ th,td{
     font-size: 20px;
     padding: 20px;
     text-align: center;
-            }
+}
   
 .container:hover .overlay {
     opacity: 1;
-                            }
+ }
+ 
 .gard{
     display: grid;
     grid-gap: 15px;
@@ -328,10 +328,17 @@ flex-direction: column;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
     padding: 30px;
+<<<<<<< HEAD
     background-color: rgb(186 13 13 / 84%);
     font-family: sans-serif;
+=======
+    background-color: rgb(212, 18, 18);
+>>>>>>> 140746d0ae2e355cee2cb69a46414a4f01c4f9ff
     
 
+    }
+.Foot h3{
+        color: #fff;
     }
 
  .Foot1, .Foot2{

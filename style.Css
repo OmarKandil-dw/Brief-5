@@ -191,6 +191,11 @@ th,td{
 
                                                   /* Page3 */
 
+.victoires{
+    display: block;
+    margin-left: 40px;
+    
+}
 
 .Grid1{
     display: grid;

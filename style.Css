@@ -105,7 +105,7 @@ nav{
 
 .Soud{
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 7px;
     }
 
 .Match1{
@@ -248,6 +248,28 @@ th,td{
     padding: 10px 0px;
 
             }
+
+.Match-CM{
+    width: 100%;
+}
+.Match-CM p{
+    width: 100%;
+}
+.Match-CM img{
+    width: 40px;
+}
+
+
+.Match-CM{
+    align-items: center;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    word-spacing: 20px;
+    border-bottom: 1px solid #e0e9f7;
+
+}
 
 .grid-container2{
     display: grid;
@@ -413,7 +435,11 @@ input{
 
 
 
-
+.Actu1 img{
+    width: 100%;
+    margin-left: 200px;
+    
+}
 
 
 
